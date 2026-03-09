@@ -1,2 +1,2 @@
 # leetcode-solutions
-Leetcode solutions repository 
+Leetcode solutions repository helps for quick revision purposes
