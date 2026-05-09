@@ -1,12 +1,11 @@
 class Solution(object):
-    def repeatedCharacter(self, s):
+    def largestOddNumber(self, num):
         """
-        :type s: str
+        :type num: str
         :rtype: str
         """
-        sett = set()
-        for i in range(len(s)):
-            # jump = "" + s[i] +s[i+1]:
-            if s[i] in sett:
-                return s[i]
-            sett.add(s[i])
+        for i in range(len(num) -1,-1,-1):
+            if int(num[i])%2 != 0:
+                return num[:i+1]
+        return ""
+        #second answer to the same question more clever approach
